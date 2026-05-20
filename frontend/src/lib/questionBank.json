@@ -1,0 +1,1741 @@
+[
+  {
+    "id": "dsa_1",
+    "category": "DSA",
+    "topic": "Arrays & Hashing",
+    "difficulty": "Easy",
+    "question": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. Can you do this in O(n) time complexity?",
+    "expectedKeywords": [
+      "hash map",
+      "O(n)",
+      "complement",
+      "indices",
+      "lookup"
+    ],
+    "followUpHints": [
+      "How can a Hash Map help achieve O(1) lookups?",
+      "Can you store values and their indices as you traverse?"
+    ]
+  },
+  {
+    "id": "dsa_2",
+    "category": "DSA",
+    "topic": "Two Pointers",
+    "difficulty": "Medium",
+    "question": "Explain the concept of the Two Pointers technique. How would you use it to determine if a string is a valid palindrome, ignoring non-alphanumeric characters?",
+    "expectedKeywords": [
+      "two pointers",
+      "left",
+      "right",
+      "alphanumeric",
+      "O(n)",
+      "constant space"
+    ],
+    "followUpHints": [
+      "What happens if characters are skipped?",
+      "How do you handle case insensitivity?"
+    ]
+  },
+  {
+    "id": "dsa_3",
+    "category": "DSA",
+    "topic": "Sliding Window",
+    "difficulty": "Medium",
+    "question": "How do you find the length of the longest substring without repeating characters using the sliding window approach?",
+    "expectedKeywords": [
+      "sliding window",
+      "set",
+      "map",
+      "left pointer",
+      "right pointer",
+      "max length"
+    ],
+    "followUpHints": [
+      "How does the window contract when a duplicate is found?",
+      "Can we optimize index jumps?"
+    ]
+  },
+  {
+    "id": "dsa_4",
+    "category": "DSA",
+    "topic": "Stack",
+    "difficulty": "Easy",
+    "question": "How would you implement a stack that supports push, pop, top, and retrieving the minimum element in constant O(1) time?",
+    "expectedKeywords": [
+      "min stack",
+      "two stacks",
+      "constant time",
+      "O(1)",
+      "push",
+      "pop"
+    ],
+    "followUpHints": [
+      "Can you use an auxiliary stack to keep track of minimums?",
+      "How do we handle duplicate minimum values?"
+    ]
+  },
+  {
+    "id": "dsa_5",
+    "category": "DSA",
+    "topic": "Binary Search",
+    "difficulty": "Medium",
+    "question": "Explain how Binary Search works. What is the time complexity and what pre-condition must the array satisfy?",
+    "expectedKeywords": [
+      "binary search",
+      "sorted array",
+      "O(log n)",
+      "divide and conquer",
+      "middle element"
+    ],
+    "followUpHints": [
+      "What happens if the array is not sorted?",
+      "How do you avoid integer overflow when calculating mid?"
+    ]
+  },
+  {
+    "id": "dsa_6",
+    "category": "DSA",
+    "topic": "Linked List",
+    "difficulty": "Medium",
+    "question": "How do you detect if a cycle exists in a linked list? Explain Floyd's Cycle-Finding Algorithm (Tortoise and Hare).",
+    "expectedKeywords": [
+      "floyd",
+      "cycle detection",
+      "tortoise and hare",
+      "fast pointer",
+      "slow pointer",
+      "O(n)"
+    ],
+    "followUpHints": [
+      "Why must fast and slow pointers eventually meet if there is a cycle?",
+      "How do you find the starting node of the cycle?"
+    ]
+  },
+  {
+    "id": "dsa_7",
+    "category": "DSA",
+    "topic": "Trees",
+    "difficulty": "Medium",
+    "question": "Describe the difference between Depth-First Search (DFS) and Breadth-First Search (BFS) in a Binary Tree. How is each implemented?",
+    "expectedKeywords": [
+      "dfs",
+      "bfs",
+      "queue",
+      "stack",
+      "recursion",
+      "level order",
+      "preorder",
+      "postorder"
+    ],
+    "followUpHints": [
+      "Which one uses more memory for wide trees?",
+      "How would you use DFS to find the maximum depth?"
+    ]
+  },
+  {
+    "id": "dsa_8",
+    "category": "DSA",
+    "topic": "Graphs",
+    "difficulty": "Hard",
+    "question": "Explain Dijkstra's shortest path algorithm. How does it work and what data structures are used to optimize its runtime?",
+    "expectedKeywords": [
+      "dijkstra",
+      "shortest path",
+      "min priority queue",
+      "greedy",
+      "relaxation",
+      "O(E log V)"
+    ],
+    "followUpHints": [
+      "How does it handle negative weight edges?",
+      "What is the role of relaxation in updating path costs?"
+    ]
+  },
+  {
+    "id": "dsa_9",
+    "category": "DSA",
+    "topic": "Dynamic Programming",
+    "difficulty": "Hard",
+    "question": "What is Dynamic Programming? Describe the difference between top-down (memoization) and bottom-up (tabulation) approaches.",
+    "expectedKeywords": [
+      "memoization",
+      "tabulation",
+      "overlapping subproblems",
+      "optimal substructure",
+      "space optimization"
+    ],
+    "followUpHints": [
+      "When is recursion with memoization preferred over tabulation?",
+      "How does DP differ from standard divide-and-conquer?"
+    ]
+  },
+  {
+    "id": "dsa_10",
+    "category": "DSA",
+    "topic": "Heaps / Priority Queues",
+    "difficulty": "Medium",
+    "question": "How would you find the top K frequent elements in an integer array using a Min-Heap?",
+    "expectedKeywords": [
+      "heap",
+      "min-heap",
+      "frequency map",
+      "priority queue",
+      "O(n log k)",
+      "top k"
+    ],
+    "followUpHints": [
+      "Why is a Min-Heap better than sorting the entire map?",
+      "What is the space complexity of this approach?"
+    ]
+  },
+  {
+    "id": "react_1",
+    "category": "React",
+    "topic": "Virtual DOM",
+    "difficulty": "Easy",
+    "question": "What is the Virtual DOM and how does React use the reconciliation algorithm to efficiently update the real DOM?",
+    "expectedKeywords": [
+      "virtual dom",
+      "reconciliation",
+      "diffing algorithm",
+      "render",
+      "keys",
+      "fiber"
+    ],
+    "followUpHints": [
+      "Why are standard DOM operations slow?",
+      "How does React use unique 'key' props to optimize lists?"
+    ]
+  },
+  {
+    "id": "react_2",
+    "category": "React",
+    "topic": "Hooks",
+    "difficulty": "Medium",
+    "question": "Explain the rules of React Hooks. Why can hooks only be called at the top level and not inside loops, conditions, or nested functions?",
+    "expectedKeywords": [
+      "hooks",
+      "rules of hooks",
+      "top level",
+      "order of call",
+      "linked list",
+      "fiber node"
+    ],
+    "followUpHints": [
+      "How does React internally track state hook variables?",
+      "What happens if a hook's execution order changes between renders?"
+    ]
+  },
+  {
+    "id": "react_3",
+    "category": "React",
+    "topic": "useEffect",
+    "difficulty": "Medium",
+    "question": "What is the purpose of the cleanup function returned from a useEffect hook? Give a common example where a cleanup function is absolutely necessary.",
+    "expectedKeywords": [
+      "useeffect",
+      "cleanup function",
+      "unmount",
+      "memory leak",
+      "event listener",
+      "setinterval"
+    ],
+    "followUpHints": [
+      "When exactly does the cleanup function execute?",
+      "What happens if you omit the dependency array completely?"
+    ]
+  },
+  {
+    "id": "react_4",
+    "category": "React",
+    "topic": "Performance Optimization",
+    "difficulty": "Medium",
+    "question": "Explain the differences between React.memo, useMemo, and useCallback. When and how should each be applied?",
+    "expectedKeywords": [
+      "react.memo",
+      "usememo",
+      "usecallback",
+      "referential equality",
+      "expensive computation",
+      "re-renders"
+    ],
+    "followUpHints": [
+      "Does memoizing everything have potential performance downsides?",
+      "How do custom equality comparators work in React.memo?"
+    ]
+  },
+  {
+    "id": "react_5",
+    "category": "React",
+    "topic": "State Management",
+    "difficulty": "Medium",
+    "question": "What is 'prop drilling' and what are the standard ways to solve this issue in medium to large scale React applications?",
+    "expectedKeywords": [
+      "prop drilling",
+      "context api",
+      "zustand",
+      "redux",
+      "state sharing",
+      "custom hooks"
+    ],
+    "followUpHints": [
+      "How does the Context API compare to Zustand in terms of re-render performance?",
+      "What is state colocation?"
+    ]
+  },
+  {
+    "id": "react_6",
+    "category": "React",
+    "topic": "Server Components",
+    "difficulty": "Hard",
+    "question": "What are React Server Components (RSC) as used in modern Next.js? How do they differ from standard Client Components?",
+    "expectedKeywords": [
+      "server components",
+      "client components",
+      "use client",
+      "bundle size",
+      "ssr",
+      "zero bundle size"
+    ],
+    "followUpHints": [
+      "Can a Server Component import a Client Component? Can a Client Component import a Server Component?",
+      "How is data fetching handled in RSCs?"
+    ]
+  },
+  {
+    "id": "react_7",
+    "category": "React",
+    "topic": "Custom Hooks",
+    "difficulty": "Easy",
+    "question": "How do custom hooks allow you to share stateful logic between different React components? Do they share actual state?",
+    "expectedKeywords": [
+      "custom hooks",
+      "reusable logic",
+      "state isolation",
+      "prefix use",
+      "encapsulation"
+    ],
+    "followUpHints": [
+      "If two components use the same custom hook, do they share state values?",
+      "Can you call default hooks inside custom hooks?"
+    ]
+  },
+  {
+    "id": "react_8",
+    "category": "React",
+    "topic": "Context API",
+    "difficulty": "Medium",
+    "question": "How can you optimize the React Context API to prevent unnecessary re-renders of all consuming components when only a portion of the context state changes?",
+    "expectedKeywords": [
+      "context api",
+      "re-renders",
+      "split context",
+      "usememo",
+      "selectors",
+      "state placement"
+    ],
+    "followUpHints": [
+      "Why does React Context cause deep updates?",
+      "How does combining Context with a state manager like Zustand help?"
+    ]
+  },
+  {
+    "id": "react_9",
+    "category": "React",
+    "topic": "Strict Mode",
+    "difficulty": "Easy",
+    "question": "Why does React render components twice in Development mode under React.StrictMode? What kinds of bugs is this feature designed to catch?",
+    "expectedKeywords": [
+      "strict mode",
+      "double render",
+      "side effects",
+      "idempotent",
+      "pure function",
+      "race conditions"
+    ],
+    "followUpHints": [
+      "Does this double-rendering happen in production builds?",
+      "How does it help detect cleaning of external subscriptions?"
+    ]
+  },
+  {
+    "id": "react_10",
+    "category": "React",
+    "topic": "Suspense & Error Boundaries",
+    "difficulty": "Hard",
+    "question": "Explain the concept of React Suspense. How does it coordinate loading states for code-splitting and data-fetching?",
+    "expectedKeywords": [
+      "suspense",
+      "error boundary",
+      "fallback",
+      "lazy loading",
+      "promise parsing",
+      "transitions"
+    ],
+    "followUpHints": [
+      "How do you catch rendering errors in React?",
+      "Can you use Suspense with server-side rendering?"
+    ]
+  },
+  {
+    "id": "node_1",
+    "category": "Node",
+    "topic": "Event Loop",
+    "difficulty": "Hard",
+    "question": "Explain the Node.js Event Loop in detail. What are its phases (timers, poll, check, close) and how does it support non-blocking I/O?",
+    "expectedKeywords": [
+      "event loop",
+      "phases",
+      "timers",
+      "poll",
+      "check",
+      "setimmediate",
+      "process.nexttick",
+      "promises"
+    ],
+    "followUpHints": [
+      "What is the difference between process.nextTick and setImmediate?",
+      "Which queue has highest priority?"
+    ]
+  },
+  {
+    "id": "node_2",
+    "category": "Node",
+    "topic": "Streams",
+    "difficulty": "Medium",
+    "question": "What are Streams in Node.js? What are the four types of streams, and why are they superior to reading whole files into memory?",
+    "expectedKeywords": [
+      "streams",
+      "readable",
+      "writable",
+      "duplex",
+      "transform",
+      "backpressure",
+      "pipe",
+      "chunk"
+    ],
+    "followUpHints": [
+      "What is backpressure and how is it managed?",
+      "How does the .pipe() method handle highWaterMark constraints?"
+    ]
+  },
+  {
+    "id": "node_3",
+    "category": "Node",
+    "topic": "Event Emitter",
+    "difficulty": "Easy",
+    "question": "How does the EventEmitter class work in Node.js? How do you publish and subscribe to custom events?",
+    "expectedKeywords": [
+      "eventemitter",
+      "on",
+      "emit",
+      "listener",
+      "once",
+      "synchronous"
+    ],
+    "followUpHints": [
+      "Are EventEmitter listener functions executed synchronously or asynchronously?",
+      "How do you handle errors thrown in event handlers?"
+    ]
+  },
+  {
+    "id": "node_4",
+    "category": "Node",
+    "topic": "Worker Threads",
+    "difficulty": "Hard",
+    "question": "Node.js is single-threaded, but how can you perform CPU-intensive tasks without blocking the main event loop? Explain Worker Threads.",
+    "expectedKeywords": [
+      "worker threads",
+      "cpu-bound",
+      "sharedarraybuffer",
+      "parentport",
+      "parallelism",
+      "cluster"
+    ],
+    "followUpHints": [
+      "How do Worker Threads differ from the Cluster module?",
+      "When should you use worker threads instead of child processes?"
+    ]
+  },
+  {
+    "id": "node_5",
+    "category": "Node",
+    "topic": "Buffer",
+    "difficulty": "Easy",
+    "question": "What is a Buffer in Node.js? Why is it needed, and how do you convert buffers to strings and vice-versa?",
+    "expectedKeywords": [
+      "buffer",
+      "binary data",
+      "v8 memory",
+      "alloc",
+      "encoding",
+      "utf-8",
+      "hex"
+    ],
+    "followUpHints": [
+      "Where does buffer memory allocate?",
+      "Why is Buffer.alloc safer than Buffer.allocUnsafe?"
+    ]
+  },
+  {
+    "id": "node_6",
+    "category": "Node",
+    "topic": "Middleware",
+    "difficulty": "Easy",
+    "question": "How does middleware work in web frameworks like Express or Fastify? What are the parameters (req, res, next) and why is next() crucial?",
+    "expectedKeywords": [
+      "middleware",
+      "express",
+      "next()",
+      "request lifecycle",
+      "chaining",
+      "error middleware"
+    ],
+    "followUpHints": [
+      "What happens if you do not call next() inside a middleware function?",
+      "How does error-handling middleware signature differ?"
+    ]
+  },
+  {
+    "id": "node_7",
+    "category": "Node",
+    "topic": "Package Manager & Modules",
+    "difficulty": "Medium",
+    "question": "Explain the difference between CommonJS (require) and ES Modules (import/export) in Node.js. How does Node.js resolve each?",
+    "expectedKeywords": [
+      "commonjs",
+      "es modules",
+      "require",
+      "import",
+      "package.json",
+      "mjs",
+      "dynamic import"
+    ],
+    "followUpHints": [
+      "Can you require() an ES Module synchronously?",
+      "Why is __dirname not available in ES Modules?"
+    ]
+  },
+  {
+    "id": "node_8",
+    "category": "Node",
+    "topic": "Clustering",
+    "difficulty": "Hard",
+    "question": "How does the Cluster module in Node.js help you take advantage of multi-core CPU architectures?",
+    "expectedKeywords": [
+      "cluster",
+      "child processes",
+      "master process",
+      "load balancing",
+      "port sharing",
+      "round-robin"
+    ],
+    "followUpHints": [
+      "How does port sharing work without EADDRINUSE errors?",
+      "What tool is commonly used to automate clustering in production?"
+    ]
+  },
+  {
+    "id": "node_9",
+    "category": "Node",
+    "topic": "Security Best Practices",
+    "difficulty": "Medium",
+    "question": "What is Helmet middleware and how does it secure a Node.js API against standard web vulnerabilities?",
+    "expectedKeywords": [
+      "helmet",
+      "http headers",
+      "xss",
+      "clickjacking",
+      "content security policy",
+      "security headers"
+    ],
+    "followUpHints": [
+      "Name three standard secure headers set by Helmet.",
+      "How do you protect Node.js APIs from brute force attacks?"
+    ]
+  },
+  {
+    "id": "node_10",
+    "category": "Node",
+    "topic": "Memory Leaks",
+    "difficulty": "Hard",
+    "question": "How do you identify, trace, and debug a memory leak in a running Node.js application?",
+    "expectedKeywords": [
+      "memory leak",
+      "garbage collection",
+      "heap snapshot",
+      "chrome devtools",
+      "leak diagnostics",
+      "closures"
+    ],
+    "followUpHints": [
+      "What is a closure reference leak?",
+      "How do global variables contribute to memory bloat?"
+    ]
+  },
+  {
+    "id": "hr_1",
+    "category": "HR",
+    "topic": "Behavioral",
+    "difficulty": "Easy",
+    "question": "Tell me about a time you faced a difficult conflict within your software development team. How did you resolve it?",
+    "expectedKeywords": [
+      "conflict",
+      "communication",
+      "empathy",
+      "compromise",
+      "collaboration",
+      "resolution"
+    ],
+    "followUpHints": [
+      "What did you learn from their perspective?",
+      "How did the resolution impact future team work?"
+    ]
+  },
+  {
+    "id": "hr_2",
+    "category": "HR",
+    "topic": "Problem Solving",
+    "difficulty": "Easy",
+    "question": "Describe a scenario where you made a critical technical mistake or bug that reached production. How did you handle it?",
+    "expectedKeywords": [
+      "mistake",
+      "production bug",
+      "ownership",
+      "post-mortem",
+      "hotfix",
+      "preventative action"
+    ],
+    "followUpHints": [
+      "How did you communicate this to your manager?",
+      "What measures did you put in place to prevent it recurring?"
+    ]
+  },
+  {
+    "id": "hr_3",
+    "category": "HR",
+    "topic": "Prioritization",
+    "difficulty": "Easy",
+    "question": "How do you handle situations where a product manager gives you unrealistic deadlines or conflicting priority requirements?",
+    "expectedKeywords": [
+      "prioritization",
+      "deadlines",
+      "negotiation",
+      "scoping",
+      "communication",
+      "trade-offs"
+    ],
+    "followUpHints": [
+      "How do you present data/reasons to explain why a feature will take longer?",
+      "What is scoping down?"
+    ]
+  },
+  {
+    "id": "hr_4",
+    "category": "HR",
+    "topic": "Career Goal",
+    "difficulty": "Easy",
+    "question": "Where do you see yourself in the next 3 to 5 years? Do you plan to continue down the individual contributor path or transition to management?",
+    "expectedKeywords": [
+      "career growth",
+      "leadership",
+      "individual contributor",
+      "management",
+      "skills acquisition",
+      "mentor"
+    ],
+    "followUpHints": [
+      "What specific areas of software architecture do you want to master?",
+      "How do you give back to the team?"
+    ]
+  },
+  {
+    "id": "hr_5",
+    "category": "HR",
+    "topic": "Teamwork",
+    "difficulty": "Easy",
+    "question": "How do you onboard a new junior software developer to your team to make sure they are productive and feel supported?",
+    "expectedKeywords": [
+      "onboarding",
+      "mentorship",
+      "pair programming",
+      "documentation",
+      "patience",
+      "code review"
+    ],
+    "followUpHints": [
+      "How do you structure their first task?",
+      "What documentation should be kept up to date?"
+    ]
+  },
+  {
+    "id": "hr_6",
+    "category": "HR",
+    "topic": "Collaboration",
+    "difficulty": "Easy",
+    "question": "Describe your ideal working culture. Do you prefer highly structured enterprise environments or agile, fast-paced startup cultures?",
+    "expectedKeywords": [
+      "work culture",
+      "agility",
+      "autonomy",
+      "innovation",
+      "structure",
+      "collaboration"
+    ],
+    "followUpHints": [
+      "How do you handle ambiguity in a fast-paced environment?",
+      "How do you maintain high code standards when moving fast?"
+    ]
+  },
+  {
+    "id": "hr_7",
+    "category": "HR",
+    "topic": "Feedback",
+    "difficulty": "Easy",
+    "question": "Tell me about a time you received constructive feedback on your code that you strongly disagreed with. How did you react?",
+    "expectedKeywords": [
+      "code review",
+      "disagreement",
+      "constructive feedback",
+      "open-mindedness",
+      "egoless",
+      "standard guidelines"
+    ],
+    "followUpHints": [
+      "How did you approach discussing the differences with the reviewer?",
+      "How do you separate yourself from your code?"
+    ]
+  },
+  {
+    "id": "hr_8",
+    "category": "HR",
+    "topic": "Motivation",
+    "difficulty": "Easy",
+    "question": "What motivates you to write high-quality software beyond getting a paycheck? What was your favorite side project and why?",
+    "expectedKeywords": [
+      "motivation",
+      "craftsmanship",
+      "curiosity",
+      "problem solving",
+      "learning",
+      "side project"
+    ],
+    "followUpHints": [
+      "What did you enjoy most during the implementation?",
+      "Did it solve a personal pain point?"
+    ]
+  },
+  {
+    "id": "hr_9",
+    "category": "HR",
+    "topic": "Adaptability",
+    "difficulty": "Easy",
+    "question": "How do you stay up-to-date with the constantly shifting landscape of frontend and backend technologies? How do you decide what to learn next?",
+    "expectedKeywords": [
+      "learning",
+      "tech blogs",
+      "community",
+      "evaluation",
+      "pragmatic",
+      "fundamentals"
+    ],
+    "followUpHints": [
+      "How do you separate hype from utility?",
+      "When did you successfully apply a newly learned technology to solve a problem?"
+    ]
+  },
+  {
+    "id": "hr_10",
+    "category": "HR",
+    "topic": "Company Value",
+    "difficulty": "Easy",
+    "question": "Why do you want to join our company specifically? What is it about our product or mission that aligns with your engineering goals?",
+    "expectedKeywords": [
+      "company mission",
+      "alignment",
+      "technical challenge",
+      "impact",
+      "innovation",
+      "values"
+    ],
+    "followUpHints": [
+      "What specific product feature interests you the most?",
+      "How can your background help us succeed?"
+    ]
+  },
+  {
+    "id": "sys_1",
+    "category": "System Design",
+    "topic": "Load Balancing",
+    "difficulty": "Medium",
+    "question": "What is a Load Balancer? Describe the difference between layer 4 (L4) and layer 7 (L7) load balancing.",
+    "expectedKeywords": [
+      "load balancer",
+      "layer 4",
+      "layer 7",
+      "tcp",
+      "http",
+      "routing",
+      "reverse proxy"
+    ],
+    "followUpHints": [
+      "Which layer allows routing based on cookies or request paths?",
+      "How does SSL termination work in load balancing?"
+    ]
+  },
+  {
+    "id": "sys_2",
+    "category": "System Design",
+    "topic": "Caching",
+    "difficulty": "Medium",
+    "question": "Explain caching strategies. What are the differences between write-through, write-around, and cache-aside patterns?",
+    "expectedKeywords": [
+      "caching",
+      "cache-aside",
+      "write-through",
+      "write-around",
+      "redis",
+      "invalidation",
+      "eviction"
+    ],
+    "followUpHints": [
+      "How do you prevent cache stampede/thundering herd?",
+      "Explain LRU cache eviction."
+    ]
+  },
+  {
+    "id": "sys_3",
+    "category": "System Design",
+    "topic": "Database Sharding",
+    "difficulty": "Hard",
+    "question": "What is Database Sharding? How does it differ from horizontal scaling via replication, and what are the primary challenges of sharding?",
+    "expectedKeywords": [
+      "sharding",
+      "horizontal partitioning",
+      "shard key",
+      "consistent hashing",
+      "joins",
+      "rebalancing"
+    ],
+    "followUpHints": [
+      "What makes cross-shard joins highly inefficient?",
+      "How do you choose an effective shard key to avoid hot spots?"
+    ]
+  },
+  {
+    "id": "sys_4",
+    "category": "System Design",
+    "topic": "Microservices",
+    "difficulty": "Hard",
+    "question": "Explain the Saga Pattern. How does it manage distributed transactions and maintain consistency across separate microservice databases?",
+    "expectedKeywords": [
+      "saga pattern",
+      "distributed transaction",
+      "choreography",
+      "orchestration",
+      "compensating transaction",
+      "eventual consistency"
+    ],
+    "followUpHints": [
+      "What is the difference between orchestration and choreography?",
+      "How does a compensating transaction work when a step fails?"
+    ]
+  },
+  {
+    "id": "sys_5",
+    "category": "System Design",
+    "topic": "Scalability",
+    "difficulty": "Medium",
+    "question": "What is the CAP Theorem? Explain the trade-offs between Consistency, Availability, and Partition Tolerance.",
+    "expectedKeywords": [
+      "cap theorem",
+      "consistency",
+      "availability",
+      "partition tolerance",
+      "eventual consistency",
+      "pacelc"
+    ],
+    "followUpHints": [
+      "Can a system physically choose Consistency and Availability (CA) over a distributed network?",
+      "Give an example of an AP database."
+    ]
+  },
+  {
+    "id": "sys_6",
+    "category": "System Design",
+    "topic": "Message Queues",
+    "difficulty": "Medium",
+    "question": "Why would you use a Message Queue like RabbitMQ or Kafka in a microservices system? How does it support asynchronous decoupling?",
+    "expectedKeywords": [
+      "message queue",
+      "kafka",
+      "rabbitmq",
+      "pub-sub",
+      "decoupling",
+      "asynchronous",
+      "backpressure"
+    ],
+    "followUpHints": [
+      "What is the difference between message queues and event streams?",
+      "How do you guarantee exactly-once message delivery?"
+    ]
+  },
+  {
+    "id": "sys_7",
+    "category": "System Design",
+    "topic": "WebSockets",
+    "difficulty": "Medium",
+    "question": "How do WebSockets scale to support millions of concurrent connections? What architectural upgrades are needed on the backend?",
+    "expectedKeywords": [
+      "websockets",
+      "scaling",
+      "redis adapter",
+      "sticky sessions",
+      "connection limits",
+      "horizontal scale"
+    ],
+    "followUpHints": [
+      "Why are standard REST connections easier to load-balance than WebSockets?",
+      "How does a pub/sub channel sync WebSockets across servers?"
+    ]
+  },
+  {
+    "id": "sys_8",
+    "category": "System Design",
+    "topic": "Rate Limiting",
+    "difficulty": "Medium",
+    "question": "What is Rate Limiting? Explain the Token Bucket and Leaky Bucket algorithms. How is rate limiting implemented across instances?",
+    "expectedKeywords": [
+      "rate limiting",
+      "token bucket",
+      "leaky bucket",
+      "redis",
+      "sliding window",
+      "ddos protection"
+    ],
+    "followUpHints": [
+      "How does Redis support fast centralized request counters?",
+      "What is a sliding window log?"
+    ]
+  },
+  {
+    "id": "sys_9",
+    "category": "System Design",
+    "topic": "DNS & CDN",
+    "difficulty": "Easy",
+    "question": "What is a Content Delivery Network (CDN)? How does it improve the latency and availability of global static assets?",
+    "expectedKeywords": [
+      "cdn",
+      "edge servers",
+      "latency",
+      "caching",
+      "dns routing",
+      "origin server"
+    ],
+    "followUpHints": [
+      "How does a CDN know when to purge its cache?",
+      "What is the difference between pull CDNs and push CDNs?"
+    ]
+  },
+  {
+    "id": "sys_10",
+    "category": "System Design",
+    "topic": "API Gateway",
+    "difficulty": "Medium",
+    "question": "What is the role of an API Gateway in a microservices architecture? What functionalities does it offload from downstream services?",
+    "expectedKeywords": [
+      "api gateway",
+      "routing",
+      "authentication",
+      "ssl termination",
+      "rate limiting",
+      "request aggregation"
+    ],
+    "followUpHints": [
+      "How does an API Gateway help in service discovery?",
+      "What is request throttling?"
+    ]
+  },
+  {
+    "id": "ai_ml_1",
+    "category": "AI_ML",
+    "topic": "Supervised Learning",
+    "difficulty": "Easy",
+    "question": "Explain the bias-variance trade-off in machine learning. What happens to bias and variance as model complexity increases?",
+    "expectedKeywords": [
+      "bias-variance",
+      "complexity",
+      "overfitting",
+      "underfitting",
+      "generalization"
+    ],
+    "followUpHints": [
+      "How do regularization techniques like L1/L2 impact bias and variance?",
+      "What are the indicators of high variance?"
+    ]
+  },
+  {
+    "id": "ai_ml_2",
+    "category": "AI_ML",
+    "topic": "Deep Learning",
+    "difficulty": "Medium",
+    "question": "What is the vanishing gradient problem in deep neural networks? Which activation functions help prevent this issue?",
+    "expectedKeywords": [
+      "vanishing gradient",
+      "backpropagation",
+      "activation function",
+      "relu",
+      "sigmoid",
+      "lstm",
+      "resnet"
+    ],
+    "followUpHints": [
+      "Why do sigmoid and tanh suffer from vanishing gradients?",
+      "How do skip connections in ResNet mitigate this?"
+    ]
+  },
+  {
+    "id": "ai_ml_3",
+    "category": "AI_ML",
+    "topic": "Transformers & LLMs",
+    "difficulty": "Hard",
+    "question": "Explain the self-attention mechanism in the Transformer architecture. How does it calculate weights between different words in a sequence?",
+    "expectedKeywords": [
+      "self-attention",
+      "query",
+      "key",
+      "value",
+      "scaled dot-product",
+      "softmax",
+      "multi-head"
+    ],
+    "followUpHints": [
+      "Why is scaling by square root of head dimension important in dot-product attention?",
+      "How does self-attention differ from recurrence in RNNs?"
+    ]
+  },
+  {
+    "id": "ai_ml_4",
+    "category": "AI_ML",
+    "topic": "Evaluation Metrics",
+    "difficulty": "Medium",
+    "question": "Describe the difference between Precision and Recall. In what scenarios would you prioritize Recall over Precision?",
+    "expectedKeywords": [
+      "precision",
+      "recall",
+      "f1-score",
+      "true positive",
+      "false negative",
+      "false positive",
+      "confusion matrix"
+    ],
+    "followUpHints": [
+      "Explain the precision-recall trade-off in terms of thresholds.",
+      "Why is recall critical in cancer detection model evaluations?"
+    ]
+  },
+  {
+    "id": "ai_ml_5",
+    "category": "AI_ML",
+    "topic": "Generative AI",
+    "difficulty": "Medium",
+    "question": "What is RAG (Retrieval-Augmented Generation)? How does it reduce hallucinations in Large Language Model applications?",
+    "expectedKeywords": [
+      "rag",
+      "hallucination",
+      "vector database",
+      "embeddings",
+      "information retrieval",
+      "context injection"
+    ],
+    "followUpHints": [
+      "Explain the workflow of a user query in a RAG system.",
+      "How do vector index types like HNSW improve lookup speeds?"
+    ]
+  },
+  {
+    "id": "ai_ml_6",
+    "category": "AI_ML",
+    "topic": "Neural Networks",
+    "difficulty": "Medium",
+    "question": "What is the purpose of regularizing a neural network? Explain how Dropout works during training and testing phases.",
+    "expectedKeywords": [
+      "regularization",
+      "dropout",
+      "overfitting",
+      "co-adaptation",
+      "scaling weights",
+      "training phase"
+    ],
+    "followUpHints": [
+      "How do you apply dropout at inference/test time?",
+      "What is the difference between L1 (Lasso) and L2 (Ridge) weight penalties?"
+    ]
+  },
+  {
+    "id": "ai_ml_7",
+    "category": "AI_ML",
+    "topic": "Embeddings",
+    "difficulty": "Medium",
+    "question": "What are Word Embeddings? How do algorithms like Word2Vec map text tokens into continuous geometric vector spaces?",
+    "expectedKeywords": [
+      "embeddings",
+      "vector space",
+      "word2vec",
+      "semantic similarity",
+      "cosine distance",
+      "skip-gram"
+    ],
+    "followUpHints": [
+      "Why does the vector operation King - Man + Woman equal Queen?",
+      "What is the limitation of static embeddings compared to contextual ones?"
+    ]
+  },
+  {
+    "id": "ai_ml_8",
+    "category": "AI_ML",
+    "topic": "Optimization",
+    "difficulty": "Medium",
+    "question": "Compare Gradient Descent, Stochastic Gradient Descent (SGD), and Adam optimization algorithms. When would you use Adam?",
+    "expectedKeywords": [
+      "gradient descent",
+      "sgd",
+      "adam",
+      "momentum",
+      "learning rate",
+      "adaptive learning"
+    ],
+    "followUpHints": [
+      "What are saddle points and how does momentum help SGD escape them?",
+      "Why is Adam generally the default choice for deep learning?"
+    ]
+  },
+  {
+    "id": "ai_ml_9",
+    "category": "AI_ML",
+    "topic": "Fine-Tuning",
+    "difficulty": "Hard",
+    "question": "What is LoRA (Low-Rank Adaptation) and how does it make the fine-tuning of multi-billion parameter LLMs computationally feasible?",
+    "expectedKeywords": [
+      "lora",
+      "low-rank adaptation",
+      "parameter efficient",
+      "adapters",
+      "intrinsic rank",
+      "frozen weights"
+    ],
+    "followUpHints": [
+      "Why is LoRA faster and cheaper than full parameter fine-tuning?",
+      "How are weight updates merged back into base models for production?"
+    ]
+  },
+  {
+    "id": "ai_ml_10",
+    "category": "AI_ML",
+    "topic": "Feature Engineering",
+    "difficulty": "Easy",
+    "question": "What is the difference between Normalization and Standardization? When should you apply each feature scaling technique?",
+    "expectedKeywords": [
+      "normalization",
+      "standardization",
+      "feature scaling",
+      "z-score",
+      "min-max",
+      "distribution"
+    ],
+    "followUpHints": [
+      "How does standardizing help algorithms like SVM and KNN?",
+      "Which scaling technique is sensitive to outliers?"
+    ]
+  },
+  {
+    "id": "db_1",
+    "category": "Database",
+    "topic": "ACID Properties",
+    "difficulty": "Easy",
+    "question": "What are the ACID properties in database management systems? Explain the significance of each property.",
+    "expectedKeywords": [
+      "acid",
+      "atomicity",
+      "consistency",
+      "isolation",
+      "durability",
+      "transactions",
+      "rollback"
+    ],
+    "followUpHints": [
+      "How does a database guarantee durability in the event of power loss?",
+      "What is a transaction rollback?"
+    ]
+  },
+  {
+    "id": "db_2",
+    "category": "Database",
+    "topic": "Indexing",
+    "difficulty": "Medium",
+    "question": "How does a database Index speed up read queries? What are the structural differences between B-Trees and Hash indexes?",
+    "expectedKeywords": [
+      "indexing",
+      "b-tree",
+      "hash index",
+      "read queries",
+      "binary tree",
+      "range queries",
+      "pointers"
+    ],
+    "followUpHints": [
+      "Why do write operations slow down when too many indexes are added?",
+      "Can hash indexes support range-based SELECT queries?"
+    ]
+  },
+  {
+    "id": "db_3",
+    "category": "Database",
+    "topic": "NoSQL vs SQL",
+    "difficulty": "Easy",
+    "question": "Compare relational SQL databases with document-based NoSQL databases. When would you explicitly choose MongoDB over PostgreSQL?",
+    "expectedKeywords": [
+      "nosql",
+      "sql",
+      "postgresql",
+      "mongodb",
+      "schema-less",
+      "joins",
+      "scale-out",
+      "foreign key"
+    ],
+    "followUpHints": [
+      "How do relationships work in schema-less document structures?",
+      "When is strong strict schema validation required?"
+    ]
+  },
+  {
+    "id": "db_4",
+    "category": "Database",
+    "topic": "Isolation Levels",
+    "difficulty": "Hard",
+    "question": "Explain database Transaction Isolation Levels. What are dirty reads, non-repeatable reads, and phantom reads?",
+    "expectedKeywords": [
+      "isolation levels",
+      "dirty reads",
+      "non-repeatable",
+      "phantom reads",
+      "serializable",
+      "read committed"
+    ],
+    "followUpHints": [
+      "Which level prevents phantom reads entirely?",
+      "How does MVCC (Multi-Version Concurrency Control) achieve high isolation?"
+    ]
+  },
+  {
+    "id": "db_5",
+    "category": "Database",
+    "topic": "Normalisation",
+    "difficulty": "Medium",
+    "question": "What is Database Normalization? Describe the requirements of First (1NF), Second (2NF), and Third Normal Form (3NF).",
+    "expectedKeywords": [
+      "normalization",
+      "1nf",
+      "2nf",
+      "3nf",
+      "transitive dependency",
+      "primary key",
+      "redundancy"
+    ],
+    "followUpHints": [
+      "Why would you ever denormalize a database in a production read-heavy system?",
+      "What is a partial dependency?"
+    ]
+  },
+  {
+    "id": "db_6",
+    "category": "Database",
+    "topic": "Replication",
+    "difficulty": "Medium",
+    "question": "Describe the differences between Master-Slave and Master-Master database replication architectures. How do you handle write conflicts?",
+    "expectedKeywords": [
+      "replication",
+      "master-slave",
+      "master-master",
+      "read replicas",
+      "conflicts",
+      "split-brain"
+    ],
+    "followUpHints": [
+      "What is split-brain scenario in distributed databases?",
+      "Explain eventual read consistency lag in master-slave setups."
+    ]
+  },
+  {
+    "id": "db_7",
+    "category": "Database",
+    "topic": "Connections",
+    "difficulty": "Medium",
+    "question": "What is a Database Connection Pool? Why is it crucial in highly concurrent backend API environments?",
+    "expectedKeywords": [
+      "connection pool",
+      "pooling",
+      "overhead",
+      "handshake",
+      "reusable",
+      "concurrency limits"
+    ],
+    "followUpHints": [
+      "What happens if a backend exhausts its database connection pool?",
+      "How do you size a connection pool effectively?"
+    ]
+  },
+  {
+    "id": "db_8",
+    "category": "Database",
+    "topic": "Joins",
+    "difficulty": "Easy",
+    "question": "Explain the differences between INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN. How does the database engine handle unmatched rows?",
+    "expectedKeywords": [
+      "joins",
+      "inner join",
+      "left join",
+      "nulls",
+      "unmatched rows",
+      "cartesian product"
+    ],
+    "followUpHints": [
+      "What happens if you perform a join on a non-indexed column?",
+      "What is a cross join?"
+    ]
+  },
+  {
+    "id": "db_9",
+    "category": "Database",
+    "topic": "Distributed DB",
+    "difficulty": "Hard",
+    "question": "What is two-phase commit (2PC) protocol in distributed databases? How does it guarantee atomicity across separate physical machines?",
+    "expectedKeywords": [
+      "two-phase commit",
+      "2pc",
+      "coordinator",
+      "participants",
+      "prepare phase",
+      "commit phase"
+    ],
+    "followUpHints": [
+      "What happens if the coordinator dies mid-commit?",
+      "Why does 2PC add high network latency?"
+    ]
+  },
+  {
+    "id": "db_10",
+    "category": "Database",
+    "topic": "Aggregations",
+    "difficulty": "Medium",
+    "question": "How do aggregation pipelines work in MongoDB? Compare them with standard GROUP BY SQL clauses.",
+    "expectedKeywords": [
+      "aggregation",
+      "pipeline",
+      "stages",
+      "$match",
+      "$group",
+      "$project",
+      "performance"
+    ],
+    "followUpHints": [
+      "Why is stage ordering highly critical for aggregation performance?",
+      "How can index matching optimize the $match stage?"
+    ]
+  },
+  {
+    "id": "frontend_1",
+    "category": "Frontend",
+    "topic": "DOM",
+    "difficulty": "Easy",
+    "question": "What is the difference between event bubbling and event capturing in JavaScript? How do you stop event propagation?",
+    "expectedKeywords": [
+      "bubbling",
+      "capturing",
+      "propagation",
+      "stoppropagation",
+      "target",
+      "listener"
+    ],
+    "followUpHints": [
+      "Which phase runs first: capturing or bubbling?",
+      "What is event delegation and why is it memory efficient?"
+    ]
+  },
+  {
+    "id": "frontend_2",
+    "category": "Frontend",
+    "topic": "Async JS",
+    "difficulty": "Medium",
+    "question": "How do Promises work in JavaScript? Explain the underlying mechanism of async/await and how it relates to generator functions.",
+    "expectedKeywords": [
+      "promise",
+      "async/await",
+      "generators",
+      "event loop",
+      "microtask",
+      "callback queue"
+    ],
+    "followUpHints": [
+      "What is a microtask and why do promise callbacks run before setTimeouts?",
+      "How do you handle multiple promises in parallel?"
+    ]
+  },
+  {
+    "id": "frontend_3",
+    "category": "Frontend",
+    "topic": "Browsers",
+    "difficulty": "Medium",
+    "question": "Explain the Critical Rendering Path. What steps does the browser take to parse HTML, CSS, and JS and paint pixels on the screen?",
+    "expectedKeywords": [
+      "critical rendering path",
+      "dom",
+      "cssom",
+      "render tree",
+      "layout",
+      "paint",
+      "reflow",
+      "repaint"
+    ],
+    "followUpHints": [
+      "What is the difference between a reflow and a repaint?",
+      "How does using transform instead of top/left prevent reflows?"
+    ]
+  },
+  {
+    "id": "frontend_4",
+    "category": "Frontend",
+    "topic": "CSS",
+    "difficulty": "Easy",
+    "question": "Explain the CSS Box Model. How do margin, border, padding, and content dimensions calculate, and what does box-sizing: border-box do?",
+    "expectedKeywords": [
+      "box model",
+      "margin",
+      "padding",
+      "border",
+      "border-box",
+      "content-box",
+      "width"
+    ],
+    "followUpHints": [
+      "Why is border-box the default layout choice for modern developers?",
+      "How does margin collapse work?"
+    ]
+  },
+  {
+    "id": "frontend_5",
+    "category": "Frontend",
+    "topic": "Caching",
+    "difficulty": "Medium",
+    "question": "Describe standard browser caching techniques. Compare localStorage, sessionStorage, cookies, and IndexedDB.",
+    "expectedKeywords": [
+      "localstorage",
+      "sessionstorage",
+      "cookies",
+      "indexeddb",
+      "expiry",
+      "size limits",
+      "http-only"
+    ],
+    "followUpHints": [
+      "Which storage mechanisms send data to the backend automatically on every request?",
+      "How does HttpOnly cookie flag secure user auth?"
+    ]
+  },
+  {
+    "id": "frontend_6",
+    "category": "Frontend",
+    "topic": "Performance Optimization",
+    "difficulty": "Hard",
+    "question": "What is the difference between debounce and throttle? Give an example scenario where you would use each.",
+    "expectedKeywords": [
+      "debounce",
+      "throttle",
+      "frequency",
+      "search input",
+      "resize",
+      "scroll event",
+      "timers"
+    ],
+    "followUpHints": [
+      "How do you implement a simple debounce function in pure JavaScript?",
+      "Why does debouncing protect APIs from search spam?"
+    ]
+  },
+  {
+    "id": "frontend_7",
+    "category": "Frontend",
+    "topic": "Web Security",
+    "difficulty": "Medium",
+    "question": "Explain Cross-Origin Resource Sharing (CORS). Why do browsers block cross-origin requests by default, and how is it configured?",
+    "expectedKeywords": [
+      "cors",
+      "preflight",
+      "options request",
+      "same-origin policy",
+      "headers",
+      "allow-origin"
+    ],
+    "followUpHints": [
+      "What is a preflight OPTIONS request and when does it trigger?",
+      "How do you bypass CORS policies during local development?"
+    ]
+  },
+  {
+    "id": "frontend_8",
+    "category": "Frontend",
+    "topic": "Vulnerabilities",
+    "difficulty": "Hard",
+    "question": "What is Cross-Site Scripting (XSS) and how do you protect React/Next.js frontend applications from XSS injection?",
+    "expectedKeywords": [
+      "xss",
+      "sanitization",
+      "dangerouslysetinnerhtml",
+      "csp",
+      "content security policy",
+      "escaping"
+    ],
+    "followUpHints": [
+      "How does React intrinsically protect raw string renders from XSS?",
+      "What is the role of Content Security Policy headers?"
+    ]
+  },
+  {
+    "id": "frontend_9",
+    "category": "Frontend",
+    "topic": "SEO & Core Web Vitals",
+    "difficulty": "Medium",
+    "question": "What are Core Web Vitals? Explain LCP (Largest Contentful Paint), FID (First Input Delay), and CLS (Cumulative Layout Shift).",
+    "expectedKeywords": [
+      "core web vitals",
+      "lcp",
+      "fid",
+      "cls",
+      "page speed",
+      "seo",
+      "layout shift"
+    ],
+    "followUpHints": [
+      "How do dynamic client banners cause severe Cumulative Layout Shift?",
+      "What is INP (Interaction to Next Paint)?"
+    ]
+  },
+  {
+    "id": "frontend_10",
+    "category": "Frontend",
+    "topic": "Module Bundling",
+    "difficulty": "Medium",
+    "question": "What is code splitting and tree shaking in modern bundlers like Webpack or Turbopack? How does it decrease bundle sizes?",
+    "expectedKeywords": [
+      "code splitting",
+      "tree shaking",
+      "static analysis",
+      "unused code",
+      "dead code",
+      "dynamic import",
+      "modules"
+    ],
+    "followUpHints": [
+      "How does ES Modules syntax enable static tree shaking?",
+      "Explain Next.js dynamic imports."
+    ]
+  },
+  {
+    "id": "backend_1",
+    "category": "Backend",
+    "topic": "API Styles",
+    "difficulty": "Easy",
+    "question": "Explain the differences between REST and gRPC. When would you prefer gRPC for microservice backends?",
+    "expectedKeywords": [
+      "grpc",
+      "rest",
+      "json",
+      "protobuf",
+      "http/2",
+      "streaming",
+      "binary serialization"
+    ],
+    "followUpHints": [
+      "Why is protobuf faster at serializing than JSON?",
+      "How does HTTP/2 multiplexing speed up microservice communications?"
+    ]
+  },
+  {
+    "id": "backend_2",
+    "category": "Backend",
+    "topic": "Concurrency",
+    "difficulty": "Medium",
+    "question": "Explain the difference between synchronous, asynchronous, and multi-threaded processing in backend execution engines.",
+    "expectedKeywords": [
+      "synchronous",
+      "asynchronous",
+      "multi-threaded",
+      "non-blocking",
+      "event loop",
+      "thread pool",
+      "io-bound"
+    ],
+    "followUpHints": [
+      "Why is asynchronous execution highly efficient for I/O-bound tasks but poor for CPU-bound tasks?",
+      "What is a context switch?"
+    ]
+  },
+  {
+    "id": "backend_3",
+    "category": "Backend",
+    "topic": "Security",
+    "difficulty": "Medium",
+    "question": "What is SQL Injection? How do parameterized queries and Object Relational Mapping (ORM) tools prevent SQL injection vulnerabilities?",
+    "expectedKeywords": [
+      "sql injection",
+      "parameterization",
+      "prepared statements",
+      "orm",
+      "sanitization",
+      "input escaping"
+    ],
+    "followUpHints": [
+      "How does a prepared statement isolate parameters from command execution?",
+      "Explain NoSQL injection injection vectors."
+    ]
+  },
+  {
+    "id": "backend_4",
+    "category": "Backend",
+    "topic": "GraphQL",
+    "difficulty": "Medium",
+    "question": "Compare GraphQL with REST APIs. What are the pros and cons of GraphQL regarding under-fetching and over-fetching?",
+    "expectedKeywords": [
+      "graphql",
+      "rest",
+      "over-fetching",
+      "under-fetching",
+      "schema",
+      "query resolution",
+      "n+1 problem"
+    ],
+    "followUpHints": [
+      "What is the N+1 database queries problem in GraphQL resolvers, and how is it resolved using DataLoader?",
+      "How is caching handled?"
+    ]
+  },
+  {
+    "id": "backend_5",
+    "category": "Backend",
+    "topic": "Authentication",
+    "difficulty": "Medium",
+    "question": "Explain JWT (JSON Web Tokens). What are the three parts of a JWT, and how do you secure token exchanges on the backend?",
+    "expectedKeywords": [
+      "jwt",
+      "header",
+      "payload",
+      "signature",
+      "hmac",
+      "rsa",
+      "stateless auth",
+      "secret key"
+    ],
+    "followUpHints": [
+      "Why shouldn't you store sensitive user password hashes inside the JWT payload?",
+      "How do you invalidate a stateless JWT token?"
+    ]
+  },
+  {
+    "id": "backend_6",
+    "category": "Backend",
+    "topic": "Caching",
+    "difficulty": "Medium",
+    "question": "How do you handle distributed session storage in horizontally scaled backend systems? Explain the role of Redis.",
+    "expectedKeywords": [
+      "redis",
+      "distributed sessions",
+      "horizontal scaling",
+      "stateless API",
+      "sticky sessions",
+      "shared state"
+    ],
+    "followUpHints": [
+      "Why is storing session objects in-memory on the API instance highly problematic for horizontal scaling?",
+      "What is session replication?"
+    ]
+  },
+  {
+    "id": "backend_7",
+    "category": "Backend",
+    "topic": "Testing",
+    "difficulty": "Easy",
+    "question": "Describe the differences between Unit Testing, Integration Testing, and End-to-End Testing. How is backend mock testing performed?",
+    "expectedKeywords": [
+      "unit test",
+      "integration test",
+      "e2e",
+      "mocking",
+      "fixtures",
+      "test coverage"
+    ],
+    "followUpHints": [
+      "Why is mocking external database queries vital for unit test isolates?",
+      "What is regression testing?"
+    ]
+  },
+  {
+    "id": "backend_8",
+    "category": "Backend",
+    "topic": "Message brokers",
+    "difficulty": "Hard",
+    "question": "What is the difference between polling, WebSockets, and Server-Sent Events (SSE) for pushing real-time server updates to web browsers?",
+    "expectedKeywords": [
+      "polling",
+      "websockets",
+      "sse",
+      "server-sent events",
+      "bidirectional",
+      "http streaming",
+      "overhead"
+    ],
+    "followUpHints": [
+      "Which real-time standard operates purely over native HTTP/1.1 or HTTP/2 without custom socket protocols?",
+      "Explain reconnection limits."
+    ]
+  },
+  {
+    "id": "backend_9",
+    "category": "Backend",
+    "topic": "Microservices",
+    "difficulty": "Hard",
+    "question": "What is Service Discovery (e.g. Consul, Eureka) in microservice architectures? Why is it needed, and how does dynamic DNS compare?",
+    "expectedKeywords": [
+      "service discovery",
+      "consul",
+      "eureka",
+      "registry",
+      "health check",
+      "dynamic IP",
+      "client-side load balancing"
+    ],
+    "followUpHints": [
+      "What happens when a microservice instance crashes without notifying the registry?",
+      "Explain how sidecar proxy pattern works."
+    ]
+  },
+  {
+    "id": "backend_10",
+    "category": "Backend",
+    "topic": "Deployments",
+    "difficulty": "Medium",
+    "question": "Explain Blue-Green deployments and Canary deployments. How do they minimize risk and reduce system downtime during product updates?",
+    "expectedKeywords": [
+      "blue-green",
+      "canary",
+      "zero downtime",
+      "traffic routing",
+      "rollback",
+      "deployment phase"
+    ],
+    "followUpHints": [
+      "How do you handle database schema migrations that are incompatible between blue and green releases?",
+      "What is a rolling release?"
+    ]
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "_id": "g0irp2ow36team94q69rwm",
+      "name": "Abhrajit Chakraborty",
+      "email": "abhrajitchakraborty24@gmail.com",
+      "password": "$2a$10$qB9Ez.9Lt0WppzZZElU/IO4n6i78dwSq8UcTZ0bz70YYXl3objvtC",
+      "createdAt": "2026-05-19T04:31:16.373Z"
+    }
+  ],
+  "sessions": [
+    {
+      "_id": "qz1ganuvy4liuxlrj8le9",
+      "userId": "g0irp2ow36team94q69rwm",
+      "category": "hr",
+      "questions": [
+        " [Interrupted]"
+      ],
+      "answers": [
+        "I am a software engineering enthusiast."
+      ],
+      "aiFollowUps": [],
+      "timestamps": [],
+      "resumeVersionUsed": "None",
+      "fillerWordCount": 0,
+      "aiEvaluation": {
+        "overallScore": 70,
+        "topicScores": {
+          "Communication": 75,
+          "Technical Depth": 65
+        },
+        "weakTopics": [
+          "System design tradeoffs"
+        ],
+        "feedbackSummary": "Good communication skills. Focus on explaining concrete trade-offs in technical architectures.",
+        "resumeConsistency": "Highly consistent with resume experiences."
+      },
+      "coachingReport": {
+        "strengths": [
+          "Strong structured communication style",
+          "Clear presentation of logic"
+        ],
+        "improvements": [
+          "Provide more production-grade examples",
+          "Minimize filler word usage"
+        ],
+        "resumeGaps": [
+          "Could expand on cloud services expertise"
+        ],
+        "suggestedTopics": [
+          "System design load balancing",
+          "Database indexing patterns"
+        ]
+      },
+      "status": "completed",
+      "createdAt": "2026-05-19T04:32:52.482Z"
+    },
+    {
+      "_id": "3dbszfxgt8xnrq8or9xmom",
+      "userId": "g0irp2ow36team94q69rwm",
+      "category": "hr",
+      "questions": [
+        " [Interrupted]"
+      ],
+      "answers": [
+        "I am a software engineering enthusiast."
+      ],
+      "aiFollowUps": [],
+      "timestamps": [],
+      "resumeVersionUsed": "None",
+      "fillerWordCount": 0,
+      "aiEvaluation": {
+        "overallScore": 70,
+        "topicScores": {
+          "Communication": 75,
+          "Technical Depth": 65
+        },
+        "weakTopics": [
+          "System design tradeoffs"
+        ],
+        "feedbackSummary": "Good communication skills. Focus on explaining concrete trade-offs in technical architectures.",
+        "resumeConsistency": "Highly consistent with resume experiences."
+      },
+      "coachingReport": {
+        "strengths": [
+          "Strong structured communication style",
+          "Clear presentation of logic"
+        ],
+        "improvements": [
+          "Provide more production-grade examples",
+          "Minimize filler word usage"
+        ],
+        "resumeGaps": [
+          "Could expand on cloud services expertise"
+        ],
+        "suggestedTopics": [
+          "System design load balancing",
+          "Database indexing patterns"
+        ]
+      },
+      "status": "completed",
+      "createdAt": "2026-05-19T04:32:52.486Z"
+    }
+  ]
+}

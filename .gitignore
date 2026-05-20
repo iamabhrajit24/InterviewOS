@@ -1,0 +1,69 @@
+# ==========================================
+# InterviewOS Root GitIgnore File
+# ==========================================
+
+# Core Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Text Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Node.js Dependencies (Ignored at all directory levels)
+node_modules/
+jspm_packages/
+web_modules/
+
+# Python Virtual Environments & Packages
+venv/
+.venv/
+env/
+.env/
+ENV/
+pyvenv.cfg
+.python-version
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Next.js, React & Build Outputs
+.next/
+out/
+build/
+dist/
+coverage/
+.nyc_output/
+
+# Secrets, Environment Files, Credentials & API Keys
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+*.pem
+*.key
+*.cert
+*.pfx
+certs/
+
+# Log Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*

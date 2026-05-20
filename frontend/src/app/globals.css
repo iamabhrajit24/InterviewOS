@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #030303;
+    --foreground: #f4f4f5;
+  }
+}
+
+body {
+  @apply bg-[#030303] text-white;
+}
+
+/* ==========================================================================
+   HIGH-END LUXURY INTERACTIVE BACKDROP
+   ========================================================================== */
+
+/* 1. Atmospheric Film Grain Overlay */
+.noise-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.018;
+  pointer-events: none;
+  z-index: 10;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.80' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* 2. Scanning Laser Keyframe */
+@keyframes laser-scan {
+  0% {
+    top: -40%;
+  }
+
+  100% {
+    top: 140%;
+  }
+}
+
+.animate-laser {
+  animation: laser-scan 3s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+}
+
+/* 3. Custom Scrollbar for all modes */
+.custom-scrollbar::-webkit-scrollbar { width: 4px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.08);
+  border-radius: 2px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.15);
+}
