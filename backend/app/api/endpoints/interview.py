@@ -1,6 +1,7 @@
 import json
 import random
 import asyncio
+# pyrefly: ignore [missing-import]
 from fastapi import APIRouter, WebSocket, WebSocketDisconnect
 from app.ai.ai_service import generate_interview_response_stream, get_ai_status
 from app.interview.session_manager import session_manager
